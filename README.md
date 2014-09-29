@@ -14,7 +14,7 @@ Add the following code to your ```composer.json``` file:
 
     "require": {
         ..
-        "commons/gender-bundle": "dev-master"
+        "commons/gender-bundle": "~1.0@dev"
     },
 
 And then run the Composer update command:
