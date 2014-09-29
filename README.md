@@ -51,11 +51,11 @@ commons_gender:
 
 These are the choices that will be available in the `gender` form type.
 
-The `gender` form type extends from [Symfony's `choice` form type][1], which means it
+The `gender` form type extends from [Symfony's `choice` form type][2], which means it
 supports `multiple`. However it is your responsibility to create a data model that
 supports multiple genders.
 
-[1]: http://symfony.com/doc/current/reference/forms/types/choice.html 
+[2]: http://symfony.com/doc/current/reference/forms/types/choice.html
 
 Interfaces
 ----------
