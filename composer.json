@@ -1,0 +1,24 @@
+{
+    "name": "commons/gender-bundle",
+    "description": "Gendered User Interfaces and Form Types for human-centered web applications.",
+    "require": {
+        "symfony/symfony": "~2.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Doherty",
+            "email": "bjd@bangpound.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Commons\\Bundle\\GenderBundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

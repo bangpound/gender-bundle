@@ -1,0 +1,10 @@
+parameters:
+    commons_gender.form.type.gender.class: Commons\Bundle\GenderBundle\Form\GenderFormType
+
+services:
+    commons_gender.form.type.gender:
+        class: %commons_gender.form.type.gender.class%
+        arguments:
+            - %commons_gender.genders%
+        tags:
+            - { name: form.type, alias: gender }
