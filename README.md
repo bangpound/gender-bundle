@@ -1,11 +1,12 @@
 Commons Gender Bundle
 =====================
 
-Since [gender is not binary][1] but Symfony documentation and tutorials and popular
-bundles play as if it were, this bundle attempts to be a starting point for Symfony
+Since [gender is not binary][1] but Symfony documentation and tutorials and [popular
+bundles][2] play as if it were, this bundle attempts to be a starting point for Symfony
 web applications to offer humane choices for users to identify themselves.
 
 [1]: http://geekfeminism.wikia.com/wiki/Gender_and_sex#Gender
+[2]: https://github.com/sonata-project/SonataUserBundle/blob/master/Model/UserInterface.php
 
 Installation
 ------------
@@ -51,11 +52,11 @@ commons_gender:
 
 These are the choices that will be available in the `gender` form type.
 
-The `gender` form type extends from [Symfony's `choice` form type][2], which means it
+The `gender` form type extends from [Symfony's `choice` form type][3], which means it
 supports `multiple`. However it is your responsibility to create a data model that
 supports multiple genders.
 
-[2]: http://symfony.com/doc/current/reference/forms/types/choice.html
+[3]: http://symfony.com/doc/current/reference/forms/types/choice.html
 
 Interfaces
 ----------
